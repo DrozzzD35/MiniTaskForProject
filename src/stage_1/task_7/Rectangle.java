@@ -1,19 +1,26 @@
 package stage_1.task_7;
 
 public class Rectangle {
-    private int width = 14;
-    private int height = 17;
+    private int width;
+    private int height;
     private static int counter;
 
-    public Rectangle(){}
+    public Rectangle(int width, int height) {
+        this.width = width;
+        this.height = height;
+        counter++;
 
-    public int area() {
-        return width * height;
     }
 
-    public int perimeter() {
-        return (width + height) * 2;
+    public static int getCounter() {
+        return counter;
     }
 
-
+    @Override
+    public String toString() {
+        return "Rectangle{" +
+                "width=" + width +
+                ", height=" + height +
+                '}';
+    }
 }

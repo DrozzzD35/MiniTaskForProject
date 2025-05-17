@@ -16,7 +16,7 @@ public class Main {
 
     }
 
-    public static void findFactorial(int number) {
+    public static void findFactorial(long number) {
         for (long i = number - 1, j = number; i >= 1; i--) {
             if (i == 1) {
                 System.out.println("Факториал числа " + number + " равен: " + j);
