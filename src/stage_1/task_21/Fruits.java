@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 public class Fruits {
-    Map<String, Integer> map = new HashMap<>();
+    private Map<String, Integer> map = new HashMap<>();
 
 
     public void addMap(String string, Integer integer) {
@@ -21,7 +21,7 @@ public class Fruits {
         return new ArrayList<>(map.values());
     }
 
-    public void printEntrySetMap(){
+    public void printEntrySetMap() {
         System.out.println(map.entrySet());
     }
 

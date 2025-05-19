@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Fruits {
-    Map<String, Integer> map = new HashMap<>();
+    private Map<String, Integer> map = new HashMap<>();
 
 
     public void addMap(String string, Integer integer) {
