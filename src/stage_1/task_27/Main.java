@@ -1,18 +1,16 @@
 package stage_1.task_27;
 
 public class Main {
-    public static void main(String[] args) {
-        divide(123, 0);
+    public static void main(String[] args) throws DivisionByZeroException {
+        System.out.println(divide(123, 0));
     }
 
 
-    public static void divide(int a, int b) throws ArithmeticException {
-        try {
-            System.out.println(a / b);
-        } catch (ArithmeticException ex) {
-            System.out.println("Ошибка. Деление на 0 невозможно");
+    public static int divide(int a, int b) throws DivisionByZeroException {
+        if (b == 0) {
+            throw new DivisionByZeroException("Ошибка. Деление на ноль не допускается");
         }
-        System.out.println("Продолжение программы");
+        return a / b;
 
     }
 
