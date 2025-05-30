@@ -1,9 +1,13 @@
 package stage_1.task_20;
 
-public class Box {
-    private Integer value = 5;
+public class Box<T> {
+    private T value;
 
-    public Integer getValue() {
+    public Box(T value) {
+        this.value = value;
+    }
+
+    public T getValue() {
         return value;
     }
 
