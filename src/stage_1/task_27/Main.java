@@ -2,6 +2,8 @@ package stage_1.task_27;
 
 public class Main {
     public static void main(String[] args) throws DivisionByZeroException {
+        System.out.println(divide(123, 5));
+        System.out.println(divide(123, 3));
         System.out.println(divide(123, 0));
     }
 
