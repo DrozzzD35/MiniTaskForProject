@@ -7,9 +7,6 @@ public interface Printer {
         print(s + " \n");
     }
 
-    static void printStatic() {
-        System.out.println("Метод printStatic");
-    }
 
 
 }

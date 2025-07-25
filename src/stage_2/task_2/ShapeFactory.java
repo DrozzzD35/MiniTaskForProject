@@ -1,7 +1,5 @@
 package stage_2.task_2;
 
-import stage_1.task_26.Figure;
-
 public class ShapeFactory {
     private double w;
     private double h;

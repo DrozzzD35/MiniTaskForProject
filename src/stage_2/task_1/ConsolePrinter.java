@@ -4,11 +4,7 @@ public class ConsolePrinter implements Printer {
 
     @Override
     public void print(String s) {
-        System.out.println("реализация метода print");
+        System.out.println("реализация метода print" + s);
     }
 
-    @Override
-    public void println(String s) {
-        Printer.super.println(s);
-    }
 }
