@@ -18,13 +18,15 @@ public class Task {
             return false;
         }
         Task newObj = (Task) obj;
-        return id == newObj.id && name.equals(newObj.name);
+        return id == newObj.id;
     }
 
     @Override
     public int hashCode() {
-        int result = name != null ? name.hashCode() : 0;
-        result = 31 * result + id;
-        return result;
+//        int result = name != null ? name.hashCode() : 0;
+//        result = 31 * result + id;
+//        return result;
+
+        return 31 * id;
     }
 }

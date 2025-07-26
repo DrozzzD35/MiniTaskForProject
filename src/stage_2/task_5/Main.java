@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         Task task1 = new Task(1, "a");
-        Task task2 = new Task(1, "a");
+        Task task2 = new Task(1, "b");
         Task task3 = new Task(1, "с");
         Task task4 = new Task(2, "a");
 
@@ -12,7 +12,7 @@ public class Main {
         System.out.println(task1.hashCode() == task2.hashCode());
         System.out.println(task1.hashCode() == task3.hashCode());
         System.out.println(task1.hashCode() == task4.hashCode());
-        System.out.println(task3.hashCode() == task4.hashCode());
+        System.out.println(task1.hashCode() == task4.hashCode());
 
 
     }
