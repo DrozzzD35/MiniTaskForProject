@@ -2,12 +2,10 @@ package stage_2.task_6;
 
 
 import org.apache.commons.io.FileUtils;
-import stage_1.task_25.Rectangle;
 
 import java.io.File;
 import java.io.IOException;
-import java.nio.file.Path;
-import java.nio.file.Paths;
+import java.nio.charset.StandardCharsets;
 
 public class Main {
     public static void main(String[] args) throws IOException {
@@ -17,7 +15,7 @@ public class Main {
         File file = new File(s);
 
         try {
-            FileUtils.readFileToString(file);
+            FileUtils.readFileToString(file, StandardCharsets.UTF_8);
         } catch (Exception e) {
             System.out.println("Собственное исключение");
         }
