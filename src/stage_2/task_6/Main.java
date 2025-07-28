@@ -16,8 +16,8 @@ public class Main {
 
         try {
             FileUtils.readFileToString(file, StandardCharsets.UTF_8);
-        } catch (Exception e) {
-            System.out.println("Собственное исключение");
+        } catch (IOException e) {
+            throw new RuntimeException("Поймали исключение " + e);
         }
 
     }
