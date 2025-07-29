@@ -9,7 +9,7 @@ public enum TaskStatus {
 
     public boolean canStart() {
         switch (this) {
-            case NEW -> {
+            case TaskStatus.NEW -> {
                 return true;
             }
             default -> {

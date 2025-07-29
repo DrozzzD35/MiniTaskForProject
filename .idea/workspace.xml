@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3544fc04-7f96-4d44-a279-0fc8038a53ac" name="Changes" comment="решена 29я задача 1го этапа">
-      <change afterPath="$PROJECT_DIR$/src/test/java/stage_2/task_8/TaskStatusTest.java" afterDir="false" />
+    <list default="true" id="3544fc04-7f96-4d44-a279-0fc8038a53ac" name="Changes" comment="решена 8я задача">
+      <change afterPath="$PROJECT_DIR$/src/main/java/stage_2/task_9/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stage_2/task_9/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stage_2/task_9/Scannable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stage_2/task_9/SimplePrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stage_2/task_9/SmartPrinter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stage_2/task_8/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stage_2/task_8/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stage_2/task_7/TaskStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stage_2/task_7/TaskStatus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/stage_2/task_8/TaskStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stage_2/task_8/TaskStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/stage_2/task_8/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/stage_2/task_8/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/stage_2/task_8/TaskStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/stage_2/task_8/TaskStatus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stage_1/task_29/RectangleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stage_1/task_29/RectangleTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -59,6 +60,7 @@
     "Application.Main.executor": "Run",
     "Application.stage_1.task_29.Main.executor": "Run",
     "Application.stage_2.task_7.Main.executor": "Run",
+    "Application.stage_2.task_8.Main.executor": "Run",
     "JUnit.RectangleTest.area.executor": "Run",
     "JUnit.RectangleTest.executor": "Run",
     "JUnit.TaskStatusTest.executor": "Run",
@@ -88,7 +90,7 @@
       <recent name="stage_2.task_8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.stage_2.task_8.Main">
+  <component name="RunManager" selected="Application.stage_2.task_9.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stage_2.task_6.Main" />
       <module name="MiniTaskForProject" />
@@ -102,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="stage_2.task_7.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stage_2.task_7.Main" />
+    <configuration name="stage_2.task_8.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stage_2.task_8.Main" />
       <module name="MiniTaskForProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stage_2.task_7.*" />
+          <option name="PATTERN" value="stage_2.task_8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="stage_2.task_8.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stage_2.task_8.Main" />
+    <configuration name="stage_2.task_9.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stage_2.task_9.Main" />
       <module name="MiniTaskForProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stage_2.task_8.*" />
+          <option name="PATTERN" value="stage_2.task_9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.stage_2.task_9.Main" />
         <item itemvalue="Application.stage_2.task_8.Main" />
         <item itemvalue="JUnit.TaskStatusTest.testCanStart (1)" />
         <item itemvalue="JUnit.TaskStatusTest" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.stage_2.task_7.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +191,7 @@
       <workItem from="1753740204891" duration="1175000" />
       <workItem from="1753775751593" duration="2366000" />
       <workItem from="1753797593254" duration="884000" />
-      <workItem from="1753798492761" duration="2483000" />
+      <workItem from="1753798492761" duration="6062000" />
     </task>
     <task id="LOCAL-00001" summary="решена 29я задача 1го этапа">
       <option name="closed" value="true" />
@@ -215,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753733806366</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="решена 8я задача">
+      <option name="closed" value="true" />
+      <created>1753801647568</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1753801647568</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +234,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="решена 7я задача" />
     <MESSAGE value="решена 29я задача 1го этапа" />
-    <option name="LAST_COMMIT_MESSAGE" value="решена 29я задача 1го этапа" />
+    <MESSAGE value="решена 8я задача" />
+    <option name="LAST_COMMIT_MESSAGE" value="решена 8я задача" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
