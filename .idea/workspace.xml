@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3544fc04-7f96-4d44-a279-0fc8038a53ac" name="Changes" comment="решена 29я задача 1го этапа">
-      <change afterPath="$PROJECT_DIR$/src/main/java/stage_1/task_29/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stage_2/task_8/TaskStatusTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stage_1/task_29/RectangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stage_1/task_29/RectangleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stage_2/task_8/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stage_2/task_8/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stage_2/task_8/TaskStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stage_2/task_8/TaskStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/stage_2/task_8/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/stage_2/task_8/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/stage_2/task_8/TaskStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/stage_2/task_8/TaskStatus.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/stage_1/task_29/RectangleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stage_1/task_29/RectangleTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,28 +23,29 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "DrozzzD35"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DrozzzD35&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/DrozzzD35/MiniTaskForProject.git",
-    "accountId": "546cf2db-10b4-4e24-ae8f-3f95dc2ad06e"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DrozzzD35/MiniTaskForProject.git&quot;,
+    &quot;accountId&quot;: &quot;546cf2db-10b4-4e24-ae8f-3f95dc2ad06e&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="30Vu9IngyoAE9Cixq2HaWXzPsY3" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -53,11 +58,17 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Application.stage_1.task_29.Main.executor": "Run",
+    "Application.stage_2.task_7.Main.executor": "Run",
     "JUnit.RectangleTest.area.executor": "Run",
     "JUnit.RectangleTest.executor": "Run",
+    "JUnit.TaskStatusTest.executor": "Run",
+    "JUnit.TaskStatusTest.testCanStart (1).executor": "Run",
+    "JUnit.TaskStatusTest.testCanStart.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/DrozzzD35/IdeaProjects/MiniTaskForProject/pom.xml",
     "node.js.detected.package.eslint": "true",
@@ -65,16 +76,25 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "advanced.settings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.RectangleTest">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="stage_2.task_8" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.stage_2.task_8.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stage_1.task_12.Main" />
+      <option name="MAIN_CLASS_NAME" value="stage_2.task_6.Main" />
       <module name="MiniTaskForProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stage_1.task_12.*" />
+          <option name="PATTERN" value="stage_2.task_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="stage_1.task_29.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stage_1.task_29.Main" />
+    <configuration name="stage_2.task_7.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stage_2.task_7.Main" />
       <module name="MiniTaskForProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stage_1.task_29.*" />
+          <option name="PATTERN" value="stage_2.task_7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,32 +115,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RectangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="stage_2.task_8.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stage_2.task_8.Main" />
       <module name="MiniTaskForProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stage_1.task_29.*" />
+          <option name="PATTERN" value="stage_2.task_8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="stage_1.task_29" />
-      <option name="MAIN_CLASS_NAME" value="stage_1.task_29.RectangleTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskStatusTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MiniTaskForProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stage_2.task_8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stage_2.task_8" />
+      <option name="MAIN_CLASS_NAME" value="stage_2.task_8.TaskStatusTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RectangleTest.area" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TaskStatusTest.testCanStart (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MiniTaskForProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stage_1.task_29.*" />
+          <option name="PATTERN" value="stage_2.task_8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="stage_1.task_29" />
-      <option name="MAIN_CLASS_NAME" value="stage_1.task_29.RectangleTest" />
-      <option name="METHOD_NAME" value="area" />
+      <option name="PACKAGE_NAME" value="stage_2.task_8" />
+      <option name="MAIN_CLASS_NAME" value="stage_2.task_8.TaskStatusTest" />
+      <option name="METHOD_NAME" value="testCanStart(stage_2.task_8.TaskStatus,boolean)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,10 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RectangleTest" />
-        <item itemvalue="Application.stage_1.task_29.Main" />
+        <item itemvalue="Application.stage_2.task_8.Main" />
+        <item itemvalue="JUnit.TaskStatusTest.testCanStart (1)" />
+        <item itemvalue="JUnit.TaskStatusTest" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.RectangleTest.area" />
+        <item itemvalue="Application.stage_2.task_7.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -151,6 +185,11 @@
       <option name="presentableId" value="Default" />
       <updated>1753724908988</updated>
       <workItem from="1753724910354" duration="4821000" />
+      <workItem from="1753733697021" duration="773000" />
+      <workItem from="1753740204891" duration="1175000" />
+      <workItem from="1753775751593" duration="2366000" />
+      <workItem from="1753797593254" duration="884000" />
+      <workItem from="1753798492761" duration="2483000" />
     </task>
     <task id="LOCAL-00001" summary="решена 29я задача 1го этапа">
       <option name="closed" value="true" />
@@ -168,7 +207,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753726163607</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="решена 29я задача 1го этапа">
+      <option name="closed" value="true" />
+      <created>1753733806366</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1753733806366</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,5 +225,9 @@
     <MESSAGE value="решена 7я задача" />
     <MESSAGE value="решена 29я задача 1го этапа" />
     <option name="LAST_COMMIT_MESSAGE" value="решена 29я задача 1го этапа" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

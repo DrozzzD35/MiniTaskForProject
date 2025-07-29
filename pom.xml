@@ -19,39 +19,58 @@
     </build>
 
     <properties>
-        <maven.compiler.source>24</maven.compiler.source>
-        <maven.compiler.target>24</maven.compiler.target>
+
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!-- Вот эти строки -->
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <!-- Укажи здесь свою версию Java, например, 11, 17, 21 -->
+        <junit.version>5.10.2</junit.version>
     </properties>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.junit</groupId>
+                <artifactId>junit-bom</artifactId>
+                <version>${junit.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+
     <dependencies>
+        <!-- Зависимость для Apache Commons IO -->
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
-            <version>2.16.1</version>
+            <version>2.16.1</version> <!-- Актуальная версия -->
         </dependency>
-
+        <!-- Зависимость для API (аннотации) -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
-            <version>5.10.2</version> <!-- Свежая стабильная версия -->
+            <!-- Версию указывать не нужно, она возьмется из BOM -->
             <scope>test</scope>
         </dependency>
 
+        <!-- Зависимость для движка (запуск тестов) -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
-            <version>5.10.2</version>
-            <scope>test</scope>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-params -->
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-params</artifactId>
-            <version>6.0.0-M2</version>
+            <!-- Версию указывать не нужно -->
             <scope>test</scope>
         </dependency>
 
+        <!-- Зависимость для параметризованных тестов -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-params</artifactId>
+            <!-- Версию указывать не нужно -->
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
 

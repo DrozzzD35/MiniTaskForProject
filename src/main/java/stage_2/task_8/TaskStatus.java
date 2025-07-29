@@ -8,7 +8,7 @@ public enum TaskStatus {
     BLOCKED;
 
     public boolean canStart() {
-        switch (this){
+        switch (this) {
             case NEW -> {
                 return true;
             }
