@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3544fc04-7f96-4d44-a279-0fc8038a53ac" name="Changes" comment="решена 8я задача">
-      <change afterPath="$PROJECT_DIR$/src/main/java/stage_2/task_9/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stage_2/task_9/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stage_2/task_9/Scannable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stage_2/task_9/SimplePrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stage_2/task_9/SmartPrinter.java" afterDir="false" />
+    <list default="true" id="3544fc04-7f96-4d44-a279-0fc8038a53ac" name="Changes" comment="решена 9я задача">
+      <change afterPath="$PROJECT_DIR$/src/main/java/stage_2/task_10/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stage_2/task_10/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stage_2/task_10/PaymentGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stage_2/task_10/PaypalGateway.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stage_2/task_7/TaskStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stage_2/task_7/TaskStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stage_2/task_8/TaskStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stage_2/task_8/TaskStatus.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +58,7 @@
     "Application.stage_1.task_29.Main.executor": "Run",
     "Application.stage_2.task_7.Main.executor": "Run",
     "Application.stage_2.task_8.Main.executor": "Run",
+    "Application.stage_2.task_9.Main.executor": "Run",
     "JUnit.RectangleTest.area.executor": "Run",
     "JUnit.RectangleTest.executor": "Run",
     "JUnit.TaskStatusTest.executor": "Run",
@@ -90,13 +88,13 @@
       <recent name="stage_2.task_8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.stage_2.task_9.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stage_2.task_6.Main" />
+  <component name="RunManager" selected="Application.stage_2.task_10.Main">
+    <configuration name="stage_2.task_10.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stage_2.task_10.Main" />
       <module name="MiniTaskForProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stage_2.task_6.*" />
+          <option name="PATTERN" value="stage_2.task_10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.stage_2.task_10.Main" />
         <item itemvalue="Application.stage_2.task_9.Main" />
         <item itemvalue="Application.stage_2.task_8.Main" />
         <item itemvalue="JUnit.TaskStatusTest.testCanStart (1)" />
         <item itemvalue="JUnit.TaskStatusTest" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +189,7 @@
       <workItem from="1753740204891" duration="1175000" />
       <workItem from="1753775751593" duration="2366000" />
       <workItem from="1753797593254" duration="884000" />
-      <workItem from="1753798492761" duration="6062000" />
+      <workItem from="1753798492761" duration="12024000" />
     </task>
     <task id="LOCAL-00001" summary="решена 29я задача 1го этапа">
       <option name="closed" value="true" />
@@ -225,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753801647568</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="решена 9я задача">
+      <option name="closed" value="true" />
+      <created>1753807717502</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1753807717502</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +241,8 @@
     <MESSAGE value="решена 7я задача" />
     <MESSAGE value="решена 29я задача 1го этапа" />
     <MESSAGE value="решена 8я задача" />
-    <option name="LAST_COMMIT_MESSAGE" value="решена 8я задача" />
+    <MESSAGE value="решена 9я задача" />
+    <option name="LAST_COMMIT_MESSAGE" value="решена 9я задача" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
