@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3544fc04-7f96-4d44-a279-0fc8038a53ac" name="Changes" comment="решена 9я задача">
-      <change afterPath="$PROJECT_DIR$/src/main/java/stage_2/task_10/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stage_2/task_10/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stage_2/task_10/PaymentGateway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stage_2/task_10/PaypalGateway.java" afterDir="false" />
+    <list default="true" id="3544fc04-7f96-4d44-a279-0fc8038a53ac" name="Changes" comment="решена 10я задача">
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,34 +50,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.stage_1.task_29.Main.executor": "Run",
-    "Application.stage_2.task_7.Main.executor": "Run",
-    "Application.stage_2.task_8.Main.executor": "Run",
-    "Application.stage_2.task_9.Main.executor": "Run",
-    "JUnit.RectangleTest.area.executor": "Run",
-    "JUnit.RectangleTest.executor": "Run",
-    "JUnit.TaskStatusTest.executor": "Run",
-    "JUnit.TaskStatusTest.testCanStart (1).executor": "Run",
-    "JUnit.TaskStatusTest.testCanStart.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/DrozzzD35/IdeaProjects/MiniTaskForProject/pom.xml",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "advanced.settings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.stage_1.task_29.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.stage_2.task_10.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.stage_2.task_7.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.stage_2.task_8.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.stage_2.task_9.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RectangleTest.area.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RectangleTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TaskStatusTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TaskStatusTest.testCanStart (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TaskStatusTest.testCanStart.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/DrozzzD35/IdeaProjects/MiniTaskForProject/pom.xml&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -88,7 +87,20 @@
       <recent name="stage_2.task_8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.stage_2.task_10.Main">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Main" />
+      <module name="MiniTaskForProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="stage_2.task_10.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stage_2.task_10.Main" />
       <module name="MiniTaskForProject" />
@@ -128,21 +140,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskStatusTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MiniTaskForProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stage_2.task_8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="stage_2.task_8" />
-      <option name="MAIN_CLASS_NAME" value="stage_2.task_8.TaskStatusTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TaskStatusTest.testCanStart (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MiniTaskForProject" />
       <extension name="coverage">
@@ -161,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.stage_2.task_10.Main" />
         <item itemvalue="Application.stage_2.task_9.Main" />
         <item itemvalue="Application.stage_2.task_8.Main" />
         <item itemvalue="JUnit.TaskStatusTest.testCanStart (1)" />
-        <item itemvalue="JUnit.TaskStatusTest" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +186,10 @@
       <workItem from="1753740204891" duration="1175000" />
       <workItem from="1753775751593" duration="2366000" />
       <workItem from="1753797593254" duration="884000" />
-      <workItem from="1753798492761" duration="12024000" />
+      <workItem from="1753798492761" duration="12897000" />
+      <workItem from="1753869398868" duration="368000" />
+      <workItem from="1753895112009" duration="4449000" />
+      <workItem from="1753959422479" duration="3889000" />
     </task>
     <task id="LOCAL-00001" summary="решена 29я задача 1го этапа">
       <option name="closed" value="true" />
@@ -231,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753807717502</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="решена 10я задача">
+      <option name="closed" value="true" />
+      <created>1753829217588</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1753829217588</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +250,8 @@
     <MESSAGE value="решена 29я задача 1го этапа" />
     <MESSAGE value="решена 8я задача" />
     <MESSAGE value="решена 9я задача" />
-    <option name="LAST_COMMIT_MESSAGE" value="решена 9я задача" />
+    <MESSAGE value="решена 10я задача" />
+    <option name="LAST_COMMIT_MESSAGE" value="решена 10я задача" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
