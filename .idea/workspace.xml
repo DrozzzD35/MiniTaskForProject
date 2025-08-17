@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3544fc04-7f96-4d44-a279-0fc8038a53ac" name="Changes" comment="решена 10я задача">
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson_16_08_2025/tasks.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/test.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,13 +88,26 @@
       <recent name="stage_2.task_8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.Main" />
       <module name="MiniTaskForProject" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stage_2.test.main" />
+      <module name="MiniTaskForProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stage_2.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,29 +154,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskStatusTest.testCanStart (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MiniTaskForProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stage_2.task_8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="stage_2.task_8" />
-      <option name="MAIN_CLASS_NAME" value="stage_2.task_8.TaskStatusTest" />
-      <option name="METHOD_NAME" value="testCanStart(stage_2.task_8.TaskStatus,boolean)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.main" />
         <item itemvalue="Application.stage_2.task_10.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.stage_2.task_9.Main" />
         <item itemvalue="Application.stage_2.task_8.Main" />
-        <item itemvalue="JUnit.TaskStatusTest.testCanStart (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +187,12 @@
       <workItem from="1753798492761" duration="12897000" />
       <workItem from="1753869398868" duration="368000" />
       <workItem from="1753895112009" duration="4449000" />
-      <workItem from="1753959422479" duration="3889000" />
+      <workItem from="1753959422479" duration="8887000" />
+      <workItem from="1754181501761" duration="86000" />
+      <workItem from="1754323854105" duration="65000" />
+      <workItem from="1754325127521" duration="3000" />
+      <workItem from="1755343193050" duration="677000" />
+      <workItem from="1755411928141" duration="476000" />
     </task>
     <task id="LOCAL-00001" summary="решена 29я задача 1го этапа">
       <option name="closed" value="true" />
@@ -239,7 +242,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753829217588</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="решена 10я задача">
+      <option name="closed" value="true" />
+      <created>1753965696778</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1753965696778</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
